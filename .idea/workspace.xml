@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b634a1d6-dfd6-4027-a273-9bed24714962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/event-image-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/event-image-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/event-image-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/event-image-4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/organizers-landing-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/protected-route.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/published-event-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/random-event-image.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/simple-pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/alert-dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/switch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/textarea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/domain/domain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/use-roles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/attendee-landing-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/callback-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-list-events-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-list-tickets.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-manage-event-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-validate-qr-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard-view-ticket-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/login-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/organizers-landing-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/published-events-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/purchase-ticket-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/TicketsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/TicketsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/config/JpaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/config/JpaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/EventStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/EventStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/QrCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/QrCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/QrCodeStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/QrCodeStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/TicketStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/TicketStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/TicketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/TicketType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/TicketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/TicketValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/TicketValidationMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/TicketValidationMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/TicketValidationStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/TicketValidationStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/filters/UserProvisioningFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/filters/UserProvisioningFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/tickets/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/david/tickets/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/META-INF/orm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/david/tickets/TicketsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/david/tickets/TicketsApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="29" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EZdZ1nW8c7yCwgI7pFgwZHULKq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TicketsApplicationTests.contextLoads.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.TicketsApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/david/Desktop/Proyectos/tickets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32988626",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\david\Desktop\Proyectos\tickets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\Desktop\Proyectos\tickets\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TicketsApplication">
+    <configuration name="TicketsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.david.tickets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.david.tickets" />
+      <option name="MAIN_CLASS_NAME" value="com.david.tickets.TicketsApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tickets" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.david.tickets.TicketsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TicketsApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b634a1d6-dfd6-4027-a273-9bed24714962" name="Changes" comment="" />
+      <created>1780390077683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780390077683</updated>
+      <workItem from="1780390078863" duration="5370000" />
+      <workItem from="1780407659020" duration="4233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
