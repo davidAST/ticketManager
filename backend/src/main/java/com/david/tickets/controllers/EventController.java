@@ -1,10 +1,8 @@
 package com.david.tickets.controllers;
 
 import com.david.tickets.domain.CreateEventRequest;
-import com.david.tickets.domain.dtos.CreateEventRequestDto;
-import com.david.tickets.domain.dtos.CreateEventResponseDto;
-import com.david.tickets.domain.dtos.GetEventDetailsResponseDto;
-import com.david.tickets.domain.dtos.ListEventResponseDto;
+import com.david.tickets.domain.UpdateEventRequest;
+import com.david.tickets.domain.dtos.*;
 import com.david.tickets.domain.entities.Event;
 import com.david.tickets.mappers.EventMapper;
 import com.david.tickets.services.EventService;
@@ -41,6 +39,22 @@ public class EventController {
         return new ResponseEntity<>(createdEventResponseDto, HttpStatus.CREATED);
     }
 
+    @PutMapping(path = "/{eventId}")
+    public ResponseEntity<UpdateEventResponseDto> updateEvent(
+            @AuthenticationPrincipal Jwt jwt,
+            @PathVariable UUID eventId,
+            @Valid @RequestBody UpdateEventRequestDto updateEventRequestDto) {
+
+        UpdateEventRequest updateEventRequest = eventMapper.fromDto(updateEventRequestDto);
+        UUID userId = parseUserId(jwt);
+
+        Event updatedEvent = eventService.updateEventForOrganizer(
+                userId, eventId, updateEventRequest);
+
+        UpdateEventResponseDto updateEventResponseDto = eventMapper.toUpdateEventResponseDto(updatedEvent);
+        return ResponseEntity.ok(updateEventResponseDto);
+    }
+
     @GetMapping
     public ResponseEntity<Page<ListEventResponseDto>> listEvents(
             @AuthenticationPrincipal Jwt jwt,
@@ -67,5 +81,6 @@ public class EventController {
     private UUID parseUserId(Jwt jwt) {
         return UUID.fromString(jwt.getSubject());
     }
+
 
 }
