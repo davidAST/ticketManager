@@ -1,6 +1,6 @@
 package com.david.tickets.filters;
 
-import com.david.tickets.domain.User;
+import com.david.tickets.domain.entities.User;
 import com.david.tickets.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
