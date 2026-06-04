@@ -150,6 +150,11 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
+    public Optional<Event> getPublishedEvents(UUID id) {
+        return eventRepository.findByIdAndStatus(id, EventStatusEnum.PUBLISHED);
+    }
+
+    @Override
     @Transactional
     public void deleteEventForOrganizer(UUID organizerId, UUID id) {
         getEventForOrganizer(organizerId, id).ifPresent(eventRepository::delete);
