@@ -75,6 +75,7 @@ w-full p-4"
         <div className="rounded-lg overflow-hidden mx-auto mb-8 relative">
           <Scanner
             key={`scanner-${data}-${validationStatus}`}
+            paused={!!data || !!validationStatus} // 👈 esto
             onScan={(result) => {
               if (result) {
                 const qrCodeId = result[0].rawValue;
